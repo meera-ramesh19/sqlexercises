@@ -1,0 +1,10 @@
+-- SELECT Title, Domestic_sales, International_sales as Total_sales FROM Movies LEFT JOIN Boxoffice ON  Movies.Id=Boxoffice.Movie_Id;
+
+-- SELECT title, rating * 10 AS rating_percent
+-- FROM movies
+--   JOIN boxoffice
+--     ON movies.id = boxoffice.movie_id;
+ 
+--SELECT title, year
+-- FROM movies
+-- WHERE year % 2 = 0;

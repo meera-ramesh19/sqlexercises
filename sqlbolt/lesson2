@@ -1,0 +1,8 @@
+-- SELECT * FROM movies WHERE id=6;
+-- SELECT *
+-- FROM Movies
+-- WHERE Year BETWEEN 2000 AND 2010;
+-- SELECT *
+-- FROM Movies
+-- WHERE Year NOT BETWEEN 2000 AND 2010;
+-- SELECT Title ,Year FROM Movies LIMIT 5;

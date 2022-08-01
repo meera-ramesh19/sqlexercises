@@ -1,0 +1,10 @@
+--SELECT Role,Name FROM employees WHERE Building IS NULL;
+
+--SELECT DISTINCT building_name
+-- FROM buildings 
+--   LEFT JOIN employees
+--     ON building_name = building
+-- WHERE role IS NULL;
+
+
+ SELECT  title, rating FROM Movies JOIN Boxoffice ON Movies.Id=Boxoffice.Movie_id ORDER BY Rating DESC
